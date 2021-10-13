@@ -1,0 +1,5 @@
+This method improves on the previous more simplistic implementaion by using an interface. Using an interface allows the view components to be more extensible without changing the main body of the program for each new implementaion. This leads to a more simplistic method of implementing new view components as they can simply satsify the requirements of the interface in order to be used by the cash register.
+
+The downside to this implemention is that if another view component model was to be added, it would need to alter the code in several places to add it.
+
+More simply, this method allows for easy creation of new view components, as the interface is already provided and thus reqiurements already laid out however actually adding it would require moderate modification to the cash register model.
